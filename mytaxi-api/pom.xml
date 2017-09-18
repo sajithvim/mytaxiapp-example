@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.glasscube.mytaxi</groupId>
+	<artifactId>mytaxi-api</artifactId>
+	<version>${mytaxi.version}</version>
+	<packaging>war</packaging>
+	<name>mytaxi-api</name>
+
+	<parent>
+		<groupId>org.glasscube.mytaxi</groupId>
+		<artifactId>mytaxi-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	
+	<dependencies>
+		<!-- Internal -->
+		<dependency>
+			<groupId>org.glasscube.mytaxi</groupId>
+			<artifactId>mytaxi-commons</artifactId>
+			<version>${mytaxi.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.glasscube.mytaxi</groupId>
+			<artifactId>mytaxi-entities</artifactId>
+			<version>${mytaxi.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.glasscube.mytaxi</groupId>
+			<artifactId>mytaxi-models</artifactId>
+			<version>${mytaxi.version}</version>
+		</dependency>
+		
+	</dependencies>
+</project>
